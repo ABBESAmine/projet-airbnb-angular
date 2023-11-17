@@ -1,0 +1,121 @@
+import { Bien } from "../models/bien";
+
+export const LISTDEBIEN: Array<Bien> = [
+    {
+        id:  1,
+        title: 'Appartement au bord de mer à Marseille',
+        ville: 'Marseille',
+        nbDePiece: 5,
+        superficie:  100,
+        reserved: false,
+        picture: "assets/h.png",
+        prix: 80,
+        dateArrive: new Date(),
+        dateDepart: new Date(),
+        nbrPersonne: 0
+    },
+    {
+        id:  2,
+        title: 'Appartement au bord de mer à Marseille',
+        ville: 'Marseille',
+        nbDePiece: 5,
+        superficie:  100,
+        reserved: false,
+        picture: "assets/a.png",
+        prix: 80,
+        dateArrive: new Date(),
+        dateDepart: new Date(),
+        nbrPersonne: 0
+    },
+    {
+        id:  3,
+        title: 'Appartement au bord de mer à Marseille',
+        ville: 'Marseille',
+        nbDePiece: 5,
+        superficie:  100,
+        reserved: false,
+        picture: "assets/b.png",
+        prix: 80,
+        dateArrive: new Date(),
+        dateDepart: new Date(),
+        nbrPersonne: 0
+    },
+    {
+        id:  4,
+        title: 'Appartement au bord de mer à Marseille',
+        ville: 'Marseille',
+        nbDePiece: 5,
+        superficie:  100,
+        reserved: false,
+        picture: "assets/c.png",
+        prix: 80,
+        dateArrive: new Date(),
+        dateDepart: new Date(),
+        nbrPersonne: 0
+    },
+    {
+        id:  5,
+        title: 'Appartement au bord de mer à Marseille',
+        ville: 'Marseille',
+        nbDePiece: 5,
+        superficie:  100,
+        reserved: false,
+        picture: "assets/d.png",
+        prix: 80,
+        dateArrive: new Date(),
+        dateDepart: new Date(),
+        nbrPersonne: 0
+    },
+    {
+        id:  6,
+        title: 'Appartement au bord de mer à Marseille',
+        ville: 'Marseille',
+        nbDePiece: 5,
+        superficie:  100,
+        reserved: false,
+        picture: "assets/e.png",
+        prix: 80,
+        dateArrive: new Date(),
+        dateDepart: new Date(),
+        nbrPersonne: 0
+    },
+    {
+        id:  7,
+        title: 'Appartement au bord de mer à Marseille',
+        ville: 'Marseille',
+        nbDePiece: 5,
+        superficie:  100,
+        reserved: false,
+        picture: "assets/f.png",
+        prix: 80,
+        dateArrive: new Date(),
+        dateDepart: new Date(),
+        nbrPersonne: 0
+    },
+    {
+        id:  8,
+        title: 'Appartement au bord de mer à Marseille',
+        ville: 'Marseille',
+        nbDePiece: 5,
+        superficie:  100,
+        reserved: false,
+        picture: "assets/g.png",
+        prix: 80,
+        dateArrive: new Date(),
+        dateDepart: new Date(),
+        nbrPersonne: 0
+    },
+    {
+        id:  5,
+        title: 'Appartement au bord de mer à Marseille',
+        ville: 'Marseille',
+        nbDePiece: 5,
+        superficie:  100,
+        reserved: false,
+        picture: "assets/h.png",
+        prix: 80,
+        dateArrive: new Date(),
+        dateDepart: new Date(),
+        nbrPersonne: 0
+    }
+]

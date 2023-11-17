@@ -1,0 +1,22 @@
+<main class="container">
+    <section class="row mt-5">
+        <div class="col-6">
+            <img [src]="bienSelected.picture" alt="" width="100%">
+        </div>
+        <div class="col-6">
+            <div>
+                <label for="">Nombre de personne</label>
+                <input type="number" class="form-control" placeholder="Nombre de personne" [(ngModel)]="bienSelected.nbrPersonne">
+            </div>
+            <div>
+                <label for="">Date d'arriver</label>
+                <input type="date" class="form-control" [(ngModel)]="bienSelected.dateArrive">
+            </div>
+            <div>
+                <label for="">Date de départ</label>
+                <input type="date" class="form-control" [(ngModel)]="bienSelected.dateDepart">
+            </div>
+            <button class="btn btn-success mt-2" (click)="reserverBien()">Valider</button>  
+        </div>
+    </section>
+</main>

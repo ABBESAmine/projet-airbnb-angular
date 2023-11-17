@@ -1,0 +1,14 @@
+.myCard{
+    background-color: rgb(249, 249, 249);
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 1s;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 10px rgb(208, 141, 148);
+}
+
+.myCard:hover{
+    scale: 1.05;
+    box-shadow: 0px 0px 10px;
+    cursor: pointer;
+}

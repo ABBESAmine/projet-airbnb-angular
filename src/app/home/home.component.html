@@ -1,0 +1,14 @@
+
+
+<main class="container pt-5 d-flex justify-content-around flex-wrap align-items-center bg-light bg-gradient">
+    <div class="text-center btnBien">
+        <input type="text" class="form-control" placeholder="Rechercher un bien" #event (keyup)="searchFilter(event.value)">
+    </div>
+    <div class="myCard" *ngFor="let bien of listDesBiens" [ngClass]="{'reserved':bien.reserved}">
+        <img [src]="bien.picture" alt="" width="330">
+        <div class="text-center">
+            <p class="mt-2">{{bien.title}}<br>Prix de la journée : {{bien.prix}}€</p>
+            <button class="btn btn-success" (click)="toReservePage(bien)">Réserver</button>
+        </div>
+    </div>
+</main>
